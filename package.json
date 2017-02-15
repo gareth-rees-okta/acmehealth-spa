@@ -5,7 +5,7 @@
   "private": true,
   "main": "",
     "scripts": {
-    "start": "http-server acmehealth-spa/"
+    "start": "http-server ."
   },
   "author": "Updated by Gareth Rees for OpenShift Deployment",
   "license": "MIT",
