@@ -16,6 +16,6 @@
     "passport": "^0.3.2",
     "passport-oauth2-jwt-bearer": "https://github.com/mcguinness/passport-okta-oidc-bearer.git",
     "yargs": "^4.4.0",
-    "http-server": "^6.2.1"
+    "http-server": "^7.0.0"
   }
 }
