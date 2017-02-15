@@ -4,9 +4,6 @@
   "description": "Acmehealth SPA - API Access Management",
   "private": true,
   "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
   "author": "Updated by Gareth Rees for OpenShift Deployment",
   "license": "MIT",
   "dependencies": {
