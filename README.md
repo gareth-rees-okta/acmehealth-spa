@@ -1,21 +1,10 @@
 # acmehealth-spa
 Single Page Application for API Access Management to be demonstrated at Oktane 2016.
 ## Build Instructions
-Once the project is cloned, install [node.js](https://nodejs.org/en/download/) on your machine. Using [npm](https://nodejs.org/en/download/) install [http-server](https://www.npmjs.com/package/http-server).
 
-    $ npm install http-server -g
-    
-
-**Usage:** `$ http-server [path] [options]`
-
-Start the web server with `http-server`
-    $ http-server [path] [options]
-    
-`[path]`is the root directory (e.g. `http-server acmehealth-spa/`)
-
-**[Navigate](http://localhost:8080/)** to `http://localhost:8080/` to sign in.
-
-####Update the `oktaconfig.js` file:
+1. Clone or Fork this repo.
+2. Create a new application in OpenShift from your copy of the GitHub Repo.
+3. ####Update the `oktaconfig.js` file:
 
 ```javascript
 angular
@@ -40,4 +29,6 @@ angular
 });
 
 ```
-
+4. Deploy OpenShift Applciation and ensure that you have setup an API Auth Server and Native OIDC App.
+5. Define the Scopes above and a rule to allow access to the users you are logging in with.
+6. TODO... 
