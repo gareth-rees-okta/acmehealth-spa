@@ -1,0 +1,20 @@
+{
+  "name": "acmehealth-spa",
+  "version": "0.0.2",
+  "description": "Acmehealth SPA - API Access Management",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Updated by Gareth Rees for OpenShift Deployment",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-oauth2-jwt-bearer": "https://github.com/mcguinness/passport-okta-oidc-bearer.git",
+    "yargs": "^4.4.0"
+  }
+}
