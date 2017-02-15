@@ -1,10 +1,10 @@
 angular
 .module("OktaConfig", [])
 .constant('OKTACONFIG', {
-	baseUrl : "https://example.oktapreview.com/",
-	id: "GJv1mKQtUAUbTalBeQLs",
-	redirect: "http://localhost:8080",
-	authUrl : '/oauth2/aus80l8xhvgeoUgwr0h7/v1/authorize',
+	baseUrl : "https://grdemo.okta.com/",
+	id: "DoeUFihrYt9yIfiswxQS",
+	redirect: "http://acmehealth-spa-oktaapi.44fs.preview.openshiftapps.com/",
+	authUrl : '/oauth2/aus9osgrgyEZ65aFs0x7/v1/authorize',
 	id_scopes: [
 		'openid',
 		'email',
