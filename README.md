@@ -3,7 +3,7 @@ Single Page Application for API Access Management to be demonstrated at Oktane 2
 ## Build Instructions
 
 1. Clone or Fork this repo.
-2. Create a new application in OpenShift from your copy of the GitHub Repo.
+2. Create a new NodeJS application in OpenShift from your copy of the GitHub Repo.
 3. ####Update the `oktaconfig.js` file:
 
 ```javascript
