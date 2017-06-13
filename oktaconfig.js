@@ -3,7 +3,7 @@ angular
 .constant('OKTACONFIG', {
 	baseUrl : "https://grdemo.okta.com/",
 	id: "DoeUFihrYt9yIfiswxQS",
-	redirect: "http://acmehealth-spa-oktaapi.44fs.preview.openshiftapps.com/",
+	redirect: "http://acmehealth-spa-okta.1d35.starter-us-east-1.openshiftapps.com/",
 	authUrl : '/oauth2/aus9osgrgyEZ65aFs0x7/v1/authorize',
 	id_scopes: [
 		'openid',
