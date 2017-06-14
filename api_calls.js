@@ -3,7 +3,7 @@ angular
 .factory("apiClient", function($q, $http, $timeout) {
 
 	// Endpoint for resource server
-	var BASE_URL = "http://localhost:8088";
+	var BASE_URL = "http://acmehealth-spa2-okta.1d35.starter-us-east-1.openshiftapps.com";
 	var apiClient = {};
 
 	apiClient.getAppointments = function(token, filter) {
