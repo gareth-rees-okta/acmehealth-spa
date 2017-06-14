@@ -15,8 +15,7 @@ angular
 		'appointments:read',
 		'appointments:cancel',
 		'appointments:edit',
-		'appointments:confirm',
-		'appointments:everyonegroup'
+		'appointments:confirm'
 		]
 });
 
