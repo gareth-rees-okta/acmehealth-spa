@@ -3,6 +3,7 @@ angular
 .factory("apiClient", function($q, $http, $timeout) {
 
 	// Endpoint for resource server
+	// updated endpoint for OpenShift URL should not be hardcodeded here. 
 	var BASE_URL = "http://acmehealth-spa2-okta.1d35.starter-us-east-1.openshiftapps.com";
 	var apiClient = {};
 
